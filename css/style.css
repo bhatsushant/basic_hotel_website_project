@@ -1,5 +1,4 @@
 /* Reset */
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,6 @@
 }
 
 /* Main Styling */
-
 html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
@@ -28,7 +26,6 @@ a {
 }
 
 /* Utility Classes */
-
 .container {
     margin: auto;
     max-width: 1920px;
@@ -93,7 +90,6 @@ a {
 }
 
 /* Navbar */
-
 #navbar {
     background: #333;
     color: #fff;
@@ -105,7 +101,7 @@ a {
     text-decoration: none;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding: 20px;
 }
@@ -132,6 +128,7 @@ a {
     color: #f7c08a;
 }
 
+/* Showcase */
 #showcase {
     background: url('../images/showcase.jpg') no-repeat center center/cover;
     height: 600px;
@@ -154,9 +151,8 @@ a {
 }
 
 /* Home Info */
-
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img {
@@ -180,7 +176,6 @@ a {
 }
 
 /* Features */
-
 .box {
     float: left;
     width: 33.3%;
@@ -193,7 +188,6 @@ a {
 }
 
 /* About Info */
-
 #about-info .info-right {
     float: right;
     width: 50%;
@@ -214,7 +208,7 @@ a {
 }
 
 #testimonials {
-    height: 600px;
+    height: 100%;
     background: url('../images/test-bg.jpg') no-repeat center center/cover;
     padding-top: 100px;
 }
@@ -240,7 +234,6 @@ a {
 }
 
 /* Contact Form */
-
 #contact-form .form-group {
     margin-bottom: 20px;
 }
@@ -268,7 +261,6 @@ a {
 }
 
 /* Footer */
-
 #main-footer {
     text-align: center;
     background: #444;
